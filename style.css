@@ -1,0 +1,66 @@
+html {
+  background-color: black;
+  margin: 50px;
+}
+
+body {
+  background-color: lightyellow;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+#add_new button {
+  display: flex;
+  align-content: center;
+  margin: auto;
+}
+
+ul {
+  margin: 10px;
+  font-size: 1em;
+  padding: 10px;
+}
+
+li {
+  padding: 40px;
+  background-color: lightpink;
+  border: 1px solid black;
+  opacity: 1;
+  list-style: none;
+}
+
+li button{
+display: inline;
+padding: 20px;
+font-size: 1em;
+}
+
+li h2 {
+  display: block;
+  font-size: 1em;
+  padding: 20px;
+}
+
+.fade_like {
+  opacity: .5;
+  border: 3px solid green;
+}
+
+.fade_nope {
+  opacity: .5;
+  border: 3px solid red;
+}
+
+
+img {
+  float: left;
+}
